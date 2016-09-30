@@ -1,16 +1,17 @@
 # Rails exercise :
-Make a small Address Book app with these features:
+Making a small Address Book app with these features:
 - CRUD (listing, display, create, edit, delete contacts)
 - to upload a picture attached to a contact
 - to tag a contact
 - to export a contact in PDF format
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
 Install Codebase
 
 Clone the git repository
 
-$ git clone git@github.com//.git
+$ git clone https://github.com/w-butler-n/AddressBook.git
 $ cd addressBook
 $ bundle
 

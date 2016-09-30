@@ -2,6 +2,9 @@
 
 <h2><%= @contact.name %></h2>
   <%= image_tag @contact.avatar.url(:medium) %>
+  <%= @contact.name %>
+  <%= @contact.phone%>
+  <%= @contact.email %>
 
 <div class="show actions">
   <%= link_to 'Edit', edit_contact_path(@contact) %>
