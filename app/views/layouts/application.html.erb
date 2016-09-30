@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Address Book App</title>
+  <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <%= stylesheet_link_tag 'application', :media => 'all' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+    <div class="header-wrap">
+      <h1><%= link_to 'Address Book App', root_path %></h1>
+      <%= link_to 'Find me on github', 'https://github.com//', target: 'blank', class: 'find_me' %>
+    </div>
+  </header>
+
+  <div id="main-wrap">
+    <%= yield %>
+  </div>
+
+  <footer>
+  	<p>Made by Wissam SAMEUT</p>
+  </footer>
+  <%= javascript_include_tag "application" %>
+</body>
+</html>
